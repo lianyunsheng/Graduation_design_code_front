@@ -1,13 +1,13 @@
 <template>
   <div>
     <HomeCarousel/>
-    <Divider dashed><span class="divider_title">{{$t('homepage1.divider_text')}}</span></Divider>
+    <Divider dashed></Divider>
     <HomePage1/>
-    <Divider dashed><span class="divider_title">{{$t('homepage2.divider_text')}}</span></Divider>
+    <Divider dashed></Divider>
     <HomePage2/>
-    <Divider dashed><span class="divider_title">{{$t('homepage3.divider_text')}}</span></Divider>
+    <Divider dashed></Divider>
     <HomePage3/>
-    <Divider dashed><span class="divider_title">{{$t('homepage4.divider_text')}}</span></Divider>
+    <Divider dashed></Divider>
     <HomePage4/>
   </div>
 </template>
@@ -40,8 +40,5 @@ export default {
 }
 </script>
 <style lang="less" >
-.divider_title{
-  color:#515a6e;
-  font-family: "汉仪小麦体简";
-}
+
 </style>

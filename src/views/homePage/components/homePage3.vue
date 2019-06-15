@@ -66,7 +66,7 @@ export default {
   height:30%;
 }
 h3{
-  color:#282c34;  
+  color:#454545;
 }
 .homePage3_div_outer{
   background-color: #ffffff;
